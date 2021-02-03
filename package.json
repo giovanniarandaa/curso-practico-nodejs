@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon api/index.js"
+    "dev": "nodemon api/index.js",
+    "dev_mysql": "nodemon mysql/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,10 +19,14 @@
   },
   "homepage": "https://github.com/giovanniarandaa/curso-practico-nodejs#readme",
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
     "nanoid": "^3.1.20",
+    "redis": "^3.0.2",
+    "request": "^2.88.2",
     "swagger-ui-express": "^4.1.6"
   }
 }
